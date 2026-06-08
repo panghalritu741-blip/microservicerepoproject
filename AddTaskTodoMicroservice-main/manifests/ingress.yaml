@@ -5,8 +5,9 @@ metadata:
   annotations:
     kubernetes.io/ingress.class: addon-http-application-routing  
 spec:
+  ingressClassName: nginx
   rules:
-  - host: add-task.devopsinsiders.online
+  - host: add.6weathers.com
     http:
       paths:
       - pathType: Prefix
