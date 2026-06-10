@@ -16,7 +16,7 @@ spec:
       - name: add-task
         env:
           - name: CONNECTION_STRING
-            value: "Driver={ODBC Driver 17 for SQL Server};Server=tcp:devopsinsiderssrv.database.windows.net,1433;Database=todoapp;Uid=devopsadmin;Pwd=P@ssw01rd@123;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
-        image: acrtodoappsiddharth1.azurecr.io/addtask:v1
+            value: "Driver={ODBC Driver 18 for SQL Server};Server=tcp:siddharthsql75785767675.database.windows.net,1433;Database=siddharthdb-dev;Uid=devopsadmin;Pwd=P@ssw01rd@123;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
+        image: acrtodoappsiddharth1.azurecr.io/addtask:12
         ports:
         - containerPort: 8000
