@@ -23,5 +23,5 @@ spec:
     spec:
       containers:
       - name: mynginx
-        image: acrtodoappsiddharth1.azurecr.io/todoui:v1
+        image: acrtodoappsiddharth1.azurecr.io/uitask:1
         ports:
